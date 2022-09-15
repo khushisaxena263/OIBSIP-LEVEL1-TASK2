@@ -1,0 +1,377 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.logo img{
+    width: 35%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top:0; 
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+}
+.navlist li{
+    list-style: none;
+    flex-shrink: 0;
+    
+}
+.navlist li a{
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+
+
+}
+.navlist li a:hover{
+    color: grey;
+}
+.rightnav{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    
+    /* padding: 0px 23px; */
+}
+#search{
+    padding: 5px;
+    font-size: 1.7rem;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background-color: black;
+    background-size:cover;
+    background-blend-mode:darken;
+}
+body{
+
+    background-color: silver;
+}
+.contains{
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    columns: 2;
+    
+}
+.info{
+    background-color: rgb(36, 33, 33);
+    min-height: 78vh;
+    min-width: 80vw;
+    margin-top: -10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    flex: 1 1 60rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.devpic{
+    
+    display: flex;
+    justify-content: center;
+    margin: 2rem 5rem;
+    align-items: center;
+
+}
+.devpic img{
+  
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 50%;
+}
+
+.devinfo h2{
+    font-size: 4rem;
+}
+
+.devinfo h1{
+    font-size: 5rem;
+}
+
+.devinfo p{
+    font-size: 3rem;
+}
+.devinfo ul{
+    list-style: none;
+    display: flex;
+    /* padding: 1rem; */
+}
+.devinfo ul li{
+    padding-right: 2rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+
+}
+.moreabout{
+    font-size: 2.2rem;
+    margin-top: 22px;
+}
+.buttons a{
+    text-decoration: none;
+    padding: 9px 10px;
+    margin-right: 5rem;
+    border-radius: 2px;
+    color:black;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.buttons a:hover{
+    color:white;
+    background-color:black;
+}
+.buttons{
+    margin-top: 34px;
+}
+.contactform{
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 44px;
+    font-size: 20px;
+
+}
+.contactform form{
+    
+    padding: 20px 150px;
+}
+
+.contactform h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.contactform form div{
+    padding: 41px 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 288px;
+    height: 33px;
+    font-style: italic;
+}
+.contactform form div input{
+    
+    align-items: center;
+    font-size: 2rem;
+    width: 16vw;
+    margin: 6px 0;
+    padding: 10px 20px;
+    background:whitesmoke;
+
+}
+#Message{
+    display:flex;
+    width:50vw;
+    
+}
+#emaillabel{
+    padding: 10px;
+    width: 350px;
+    height: 22px;
+}
+#phone{
+    padding: 10px;
+    width: 350px;
+    height: 22px;
+    font-style: italic;
+}
+
+.butts{
+    padding: 10px 279px;
+
+}
+.but{
+    margin-top: 51px;
+    width: 91px;
+    border-radius: 41px;
+    padding: 11px 20px;
+    font: 10ox;
+    color:black;
+    background-color: silver;
+    cursor: pointer;
+
+}
+.but:hover{
+    color: white;
+    background-color:black;
+
+}
+.aboutme{
+    padding: 116px 90px;
+
+}
+
+/* my Skills */
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.box{
+    /* height: 10rem; */
+    flex: 1 1 30rem;
+    margin: 5rem; 
+    background: black;
+    font-size: 13px;
+    padding: 4rem;
+    color: white;
+    border-radius: 30px;
+    transition: all .3s ease;
+    
+}
+.box:hover{
+    box-shadow: 0 2px 7px rgb(36, 33, 33, .5);
+    padding: 4.5rem;
+}
+.logocontact{
+    height: 122px;
+    margin-left: 450px;
+    margin-top: 49px;
+    cursor: pointer;
+}
+.insta{
+    height: 45px;
+    cursor: pointer;
+}
+.linkdn{
+    margin-left: 20px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+    html{
+        font-size: 50%;
+    }
+    
+    .devpic img{
+    
+        object-fit: cover;
+        height: 350px;
+        width: 300px;
+        margin-right: 20px;
+       
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    html{
+        font-size: 40%;
+    }
+    .info{
+        width: 100vw;
+    }
+    .devpic img{
+    
+        
+        height: 250px;
+        width: 250px;
+        
+       
+    }
+
+    .logo img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .navlist li a{
+        font-size: 2.2rem;
+    }
+    .rightnav{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 524px) {
+    html{
+        font-size: 30%;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+  
+    .devpic img{
+        height: 200px;
+        width: 200px;
+        margin-right: 20px;
+       
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin-top: -.1rem;
+    
+    }
+    .buttons a{
+        margin-top: 2rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 424px) {
+
+    html{
+        font-size: 40%;
+    }
+    .info{
+     flex-direction: column-reverse;   
+        justify-content: center;
+    align-items: center;
+
+    }
+    .devpic img{
+        height: 100%;
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        border-radius: 50%;
+    }
+
+}
